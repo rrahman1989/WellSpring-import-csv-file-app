@@ -51,7 +51,7 @@ singleUploadForm.addEventListener('submit', function(event){
 	$(function () {
 	    $('#grid').w2grid({
 	        name: 'grid',
-	        url    : 'http://localhost:8080/api/csv/tutorials',
+	        url    : '/api/csv/tutorials',
 	        header: 'List of Names',
 	        columns: [
 	          { field: 'id', text: 'ID', size: '10%' },
